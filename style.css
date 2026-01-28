@@ -10,11 +10,17 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: var(--text);
+  color: #0b0c0c;
   line-height: 1.6;
+
+  /* SOFT CINEMATIC BACKGROUND */
   background:
-    linear-gradient(rgba(255,255,255,0.92), rgba(255,255,255,0.92)),
+    linear-gradient(
+      rgba(255,255,255,0.88),
+      rgba(255,255,255,0.88)
+    ),
     url("bg-construction.jpg") center/cover no-repeat fixed;
+
   animation: fadeIn 0.6s ease;
 }
 @keyframes fadeIn {
