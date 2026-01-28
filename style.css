@@ -17,16 +17,10 @@ body {
   /* SOFT CINEMATIC CONSTRUCTION BACKGROUND */
   background:
     linear-gradient(
-      rgba(255, 255, 255, 0.94),
-      rgba(255, 255, 255, 0.94)    ),
-    url("bg-construction.jpg") center / cover no-repeat fixed;
-
-  animation: fadeIn 0.6s ease;
-}
-      rgba(255,255,255,0.88)
+      rgba(255,255,255,0.92),
+      rgba(255,255,255,0.92)
     ),
-    url("https://images.unsplash.com/photo-1569163139394-de4798aa62b3?w=1200&q=80") center/cover no-repeat fixed;
-
+    url("./bg-construction.jpg") center / cover no-repeat fixed;
   animation: fadeIn 0.6s ease;
 }
 @keyframes fadeIn {
