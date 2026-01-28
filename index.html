@@ -85,6 +85,14 @@
       margin-bottom: 8px;
     }
 
+    .home-image {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
     /* BUTTON */
     button {
       background: none;
@@ -104,6 +112,16 @@
       outline: none;
     }
 
+    .email-link {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .email-link:hover {
+      text-decoration: underline;
+    }
+
     /* FOOTER */
     footer {
       border-top: 1px solid var(--border);
@@ -121,39 +139,36 @@
   <p>Residential & Commercial Construction</p>
 
   <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <main>
 
-  <section>
+  <section id="home">
+    <h2>Welcome to Ayyappa Construction</h2>
+    <p>
+      Soft Cinematic Construction Building - Experience the art of modern construction with our award-winning team. We build dreams with precision and passion.
+    </p>
+    <img src="https://images.unsplash.com/photo-1504917595217-3404ee9c6e68?w=800&h=400&fit=crop" alt="Modern Construction Building" class="home-image" />
+  </section>
+
+  <section id="about">
     <h2>About Us</h2>
     <p>
-      Ayyappa Construction is a trusted construction firm based in
-      Vizianagaram, led by proprietor <strong>Kilari Nagaraju</strong>.
-      We specialize in residential layouts, apartments, and commercial
-      construction with a strong focus on quality, transparency, and
-      long-term value.
+      Ayyappa Construction is a trusted hometown builder based in <strong>Kilari Nagar, Vizianagaram</strong>, led by proprietor <strong>Kilari Nagaraju</strong>. 
+      Operating since <strong>1995</strong> in both <strong>Vizianagaram and Visakhapatnam</strong>, we specialize in residential layouts, apartments, and commercial construction 
+      with a strong focus on quality, transparency, and long-term value. With over two decades of experience, we have built a reputation for excellence 
+      and customer satisfaction across Andhra Pradesh.
     </p>
   </section>
 
-  <section>
-    <h2>Our Experience</h2>
-    <p>
-      We have successfully completed <strong>10 construction projects</strong>
-      across <strong>Visakhapatnam (Vizag)</strong> and
-      <strong>Vizianagaram</strong>, including layouts, apartments, and
-      individual buildings.
-    </p>
-  </section>
-
-  <section>
-    <h2>Services</h2>
+  <section id="services">
+    <h2>Our Services</h2>
     <ul>
       <li>Residential Buildings & Apartments</li>
       <li>Layouts & Housing Projects</li>
@@ -163,21 +178,30 @@
     </ul>
   </section>
 
-  <section>
-    <h2>Contact</h2>
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <ul>
+      <li><strong>Ayyappa Residence</strong> - A premium flat complex with 7 floors located at <strong>Padmavathi Nagar, 1st Line, Vizianagaram</strong>. 
+      Designed with modern amenities and spacious layouts for comfortable living.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
     <p>
       Proprietor: <strong>Kilari Nagaraju</strong><br />
       Phone: <a href="tel:9348622779">9348622779</a><br />
-      Location: Vizianagaram & Visakhapatnam
+      Email: <a href="mailto:k.sohansai@gmail.com" class="email-link">k.sohansai@gmail.com</a><br />
+      Location: Kilari Nagar, Vizianagaram & Visakhapatnam
     </p>
 
-    <button>Request a Quote</button>
+    <button onclick="alert('Thank you for your interest! We will contact you soon at the provided phone number or email.')">Request a Quote</button>
   </section>
 
 </main>
 
 <footer>
-  © 2026 Ayyappa Construction. All rights reserved.
+  © 2026 Ayyappa Construction. All rights reserved. Based in Vizianagaram since 1995.
 </footer>
 
 </body>
