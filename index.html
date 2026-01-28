@@ -1,184 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Ayyappa Construction</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <style>
-    :root {
-      --blue: #1d70b8;
-      --yellow: #ffdd00;
-      --text: #0b0c0c;
-      --border: #b1b4b6;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: var(--text);
-      background: #ffffff;
-      line-height: 1.6;
-    }
-
-    /* HEADER */
-    header {
-      background: var(--blue);
-      color: #ffffff;
-      padding: 24px 32px;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 1.8rem;
-    }
-
-    header p {
-      margin: 4px 0 0;
-      font-size: 0.95rem;
-      opacity: 0.9;
-    }
-
-    header nav {
-      margin-top: 14px;
-    }
-
-    header a {
-      color: #ffffff;
-      margin-right: 20px;
-      text-decoration: none;
-      font-weight: 600;
-      padding: 6px 4px;
-    }
-
-    header a:hover,
-    header a:focus {
-      background: var(--yellow);
-      color: #000;
-    }
-
-    /* MAIN */
-    main {
-      max-width: 900px;
-      margin: auto;
-      padding: 48px 32px;
-    }
-
-    section {
-      margin-bottom: 48px;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 12px;
-    }
-
-    p {
-      max-width: 650px;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-
-    /* BUTTON */
-    button {
-      background: none;
-      border: 2px solid var(--blue);
-      color: var(--blue);
-      padding: 10px 18px;
-      font-size: 1rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: background 0.2s ease;
-    }
-
-    button:hover,
-    button:focus {
-      background: var(--yellow);
-      color: #000;
-      outline: none;
-    }
-
-    .email-link {
-      color: var(--blue);
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    .email-link:hover {
-      text-decoration: underline;
-    }
-
-    /* FOOTER */
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 24px 32px;
-      font-size: 0.9rem;
-      color: #505a5f;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Home - Ayyappa Construction</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
 <header>
   <h1>Ayyappa Construction</h1>
-  <p>Residential & Commercial Construction</p>
-
   <nav>
-    <a href="home.html">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
     <a href="projects.html">Projects</a>
-    <a href="#contact">Contact</a>
+    <a href="contact.html">Contact</a>
   </nav>
 </header>
-
 <main>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>
-      Ayyappa Construction is a trusted hometown builder based in <strong>Kilari Nagar, Vizianagaram</strong>, led by proprietor <strong>Kilari Nagaraju</strong>. 
-      Operating since <strong>1995</strong> in both <strong>Vizianagaram and Visakhapatnam</strong>, we specialize in residential layouts, apartments, and commercial construction 
-      with a strong focus on quality, transparency, and long-term value. With over two decades of experience, we have built a reputation for excellence 
-      and customer satisfaction across Andhra Pradesh.
-    </p>
-  </section>
-
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Residential Buildings & Apartments</li>
-      <li>Layouts & Housing Projects</li>
-      <li>Commercial Construction</li>
-      <li>Renovation & Remodeling</li>
-      <li>End-to-End Project Management</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>
-      Proprietor: <strong>Kilari Nagaraju</strong><br />
-      Phone: <a href="tel:9348622779">9348622779</a><br />
-      Email: <a href="mailto:k.sohansai@gmail.com" class="email-link">k.sohansai@gmail.com</a><br />
-      Location: Kilari Nagar, Vizianagaram & Visakhapatnam
-    </p>
-
-    <button onclick="alert('Thank you for your interest! We will contact you soon at the provided phone number or email.')">Request a Quote</button>
-  </section>
-
+  <div class="hero">
+    <img src="construction.gif" alt="Cinematic construction building">
+  </div>
 </main>
-
 <footer>
-  © 2026 Ayyappa Construction. All rights reserved. Based in Vizianagaram since 1995.
+  © 2026 Ayyappa Construction
 </footer>
-
 </body>
 </html>
