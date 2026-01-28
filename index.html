@@ -25,6 +25,18 @@
 </footer>
 <a href="https://wa.me/919348622779" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
   ☎
+  <script>
+document.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', function(e) {
+    if (this.classList.contains('whatsapp-float')) return; // skip WhatsApp button
+    e.preventDefault();
+    document.body.style.opacity = 0;
+    setTimeout(() => {
+      window.location = this.href;
+    }, 300);
+  });
+});
+</script>
 </a>
 </body>
 </html>
