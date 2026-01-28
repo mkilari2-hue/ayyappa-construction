@@ -12,13 +12,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #0b0c0c;
   line-height: 1.6;
+    transition: opacity 0.3s ease;
 
   /* SOFT CINEMATIC CONSTRUCTION BACKGROUND */
   background:
     linear-gradient(
-      rgba(255, 255, 255, 0.92),
-      rgba(255, 255, 255, 0.92)
-    ),
+      rgba(255, 255, 255, 0.94),
+      rgba(255, 255, 255, 0.94)    ),
     url("bg-construction.jpg") center / cover no-repeat fixed;
 
   animation: fadeIn 0.6s ease;
